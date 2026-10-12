@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build & Packaging Deliverables
+build/
+dist/
+dist_installer/
+
+# Environment & Credentials
+.env
+.env.*
+*.pem
+*.key
+*.token
+
+# Private Reference Files & Raw Accounting Exports
+references/
+test_outputs/
+scratch/
+*Injaz_private_archive*
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Generated Excel and CSV outputs outside fixtures
+*.xlsx
+*.xls
+*.csv
+!tests/fixtures/*.xlsx
+!tests/fixtures/*.pdf
+
+# IDE and OS metadata
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
